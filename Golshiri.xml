@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng">
+    <!-- The TEI document starts here -->
+
+    <!-- Metadata about the document -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI Encoding of "The Man with the Red Tie"</title>
+                <author>Houshang Golshiri</author>
+            </titleStmt>
+            <respStmt>
+                <resp>Translator</resp>
+                <name>Heshmat Moayyad</name>
+            </respStmt>
+            <publicationStmt>
+                <publisher>Mage Publishers</publisher>
+                <pubPlace>Washington D.C., United States</pubPlace>
+                <date>2003</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Transcription of eight pages taken from the manuscripts of Houshang Golshiri's <title>The Man with the Red Tie</title></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <!-- The main text content -->
+    <text>
+        <body>
+            <!-- Division 1 with page break -->
+            <div n="1">
+                <pb facs="#page1"/> <!-- Page break reference -->
+                <head>The Man with the Red Tie</head>
+                <note rend="location(top right)">Dedicated to: Abolhasan Najafi</note>
+                <p>
+                    Mr. S.M. No. 12356/9 <add>has</add> short hair.<lb> <del rend="display:none">This was all I knew</del> <add place="above">I knew just so much</add>.
+                    about him, that he <unclear reason="dehyphenation">probably</unclear></lb> 
+                    <lb>wears glasses. In the photograph, you can</lb> 
+                    <lb>just make out a fine line running across <del rend="display:none">Mr. S.M.'s</del><add place="above">his</add></lb>
+                    <lb>nose.This apart/beyond this,there were no</lb>
+                    <lb>other distinguishing marks/traits in the <unclear reason="dehyphenation">photograph.</unclear></lb>
+                    <lb>His exact address was in  the file:</lb><lb>Dr. QQa'ni, Number 10, Doulat St.</lb>
+                    <lb>I left early.(in the morning) of course</lb>
+                    <lb>I knew<del reason="Not necessary anymore">/realised</del> that the local tradesmen<add>[</add> would</lb>
+                    <lb>keep their lips firmly sealed/<add>]</add>would not <add place="above">be likely to</add> give a</lb>
+                    <lb>thing away, particularly if one <del type="overwritten">wanted/</del>tried to</lb>
+                    <lb>make use of an identity card, or even more fame</lb>
+                    <lb><note place="margin left" xml:lang="fa">اسم و رسم </note>and reputation.I combed my hair. Taking <unclear reason="dehyphenation">particular</unclear></lb>
+                    <lb> care <add>to c</add>over the bald spot in the middle of</lb>
+                    <lb>my head <add>[</add>with a few strands of hair.<add>]</add>   I also</lb>
+                    <lb>gave my moustache a few combs  <add place="above"> quick combs too </add>and although I </lb>
+                 
+                
+                </p>
+            </div>
+    
+            <!-- Division 2 with page break -->
+            <div n="2">
+                <pb facs="#page2"/> <!-- Page break reference -->
+                <p>had <del reason="omitted"> shut</del><add place="above"> already locked</add> the front door , I <del reason="omitted">returned yet</del><add place="above"> went back</add> again
+                <lb><del>to make</del> <add place="above"> take a</add><add place="below"> under</add>  <add place="above>">careful look at</add> inspection of my hair <add>[</add>head<add>]</add></lb>
+                <lb>and general appearance and <del>occasionally</del><add place="above"> at sometimes</add> to</lb>
+                <lb>take a second  look at  the  knot  in my  tie.</lb>
+                <lb><add>since</add> I had to  leave  first t<add>h</add>ing in  the morning,</lb>
+                <lb><add>[</add>so/because of this<add>]</add> I took a taxi. The taxi </lb>
+                <lb>money was allowed for in the monthly account,</lb>
+                <lb>granted to</lb>
+                <lb>I began with the grocer's  at  the top of the <del reason="omitted">stre</del></lb>
+                <bl>street.  First I bought a packet of cigarettes</bl>
+                <lb><del reason="editorial">(and)</del> then some matches. These too I had allowed/</lb>
+                <lb>was grateful for.  After all , s you know. </lb>
+                <lb>I didn't <add place="above"> really </add>smoke. When  I handed over  the money -</lb>
+                <lb>100 tomani note - the grocer <del>been</del> got very</lb>
+                <lb>flustered/all fingers and thumbs:</lb>
+                <lb><del reason="editorial">"Do-you-want-an"</del></lb>
+                <lb>"Can I get you anything else?" he asked.</lb>
+                <lb><q>No thank you ,</q> I said " But I wondered whether </lb>
+                </p>
+            </div>
+
+            <!-- Division 3 with page break -->
+            <div n="3">
+                <pb facs="#page3"/> <!-- Page break reference -->
+                <p>you could tell me anything about Mr, S.M.
+                <lb>Don't worry my intention <add place="above">I don't wish him any </add> are all for the good."</lb>
+                <lb>He was muddling around in the back of  the shop,</lb>
+                <lb>and <del reason="editorial">brought</del> came out with a <add place="above">earn</add> crumpled ten tomani </lb>                
+                <lb>and five tomani note  which  he  laid  one  on top of </lb>
+                <lb>the other.</lb>
+                <lb><q>He's my nephew,</q> I said , "well you know </lb>
+                <lb>how it is , a girl's got to take her chance/</lb>
+                <lb>risk her luck when she can/as early as possible.</lb>
+                <lb><q>I know</q> he said , <q>But this Mr.S.M. ...</q></lb>
+                <lb><q>Yes</q> I said.</lb>
+                <lb><q>Nothing.</q> he said , <del>what I meant was</del><add place="above">intend</add> he</lb>                
+                <lb>doesn't seem  to do anything/he seems unemployed <add place="above"> It looks  like his</add> </lb>
+                <lb>to me. I mean he's always at home <add>he only comes at around noon and buys one toman of cheese</add></lb>
+                <lb><add>and couple of onions and two pockets of sigerettes</add></lb>
+                <lb><add>perhaps a box of matches.</add></lb>
+                </p>
+            </div>
+            <!-- Division 4 with page break -->
+             <div n="4">
+                <pb facs="#page4"/> <!-- Page break reference -->
+                <p> so much for <del reason="omitted">that</del> them. But I talked to the
+                <lb>baker and even to the barbecue stall holder on the</lb>
+                <lb>other side of the road/street, I learned that he</lb>
+                <lb><del reason="redundant">bought a couple</del></lb>
+                <lb>bought a couple of Flat loaves in the morning and</lb>
+                <lb>a mere  one either at noon or in the evening and</lb>
+                <lb>that by the time he got/reached home he had usually</lb>
+                <lb>eaten half of a loaf on its own and that sometimes he'd</lb>
+                <lb>come in late and buy a leftover loaf to eat for his</lb>
+                <lb>dinner. There wasn't even anywhere else or anyother</lb>
+                <lb>way for him to go and fritter away his money. <unclear reason="dehyphenation">Naturally</unclear></lb>
+                <lb>he'd wet his whistle/give himeself a drink too</lb>
+                <lb>of an evening, but that pretty briefly/fleetingly</lb>
+                <lb>also, with a pepsi and sometimes a haricot-bean.</lb>
+                <lb>And then before he'd even finished his first </lb>
+                <lb>cupful hed'd light up a cigarette. Indeed he really</lb>
+                <lb>did smoke very heavily. But I mustn't write form</lb>
+                <lb>later notes, leave those until later.</lb>
+                <lb>The <del reason="omitted">next day I </del> following day  I went and</lb>
+                </p> 
+            </div>
+               <!-- Division 5 with page break -->
+             <div n="5">
+                <pb facs="#page5"/> <!-- Page break reference -->
+                <p> knocked on his next-door neighbour's front door.
+                <lb>A plump lady/woman answered the door, she had</lb>
+                <lb>dark eyes and eyebrows, tinted too. She looked</lb>
+                <lb>like a lady with a past, I mean even I, at my age...</lb>
+                <lb>well, I'm not quite on crutches yet.</lb>
+                <lb><q>Good Day Ma'am,</q> I said , <q>Excuse me but does</q></lb>
+                <lb>Mr. S.M. live here?</lb>
+                <lb><q>No,Sir,</q> she said,He's next door, this is </lb>
+                <lb>Mr. ... house.</lb>
+                <lb>I knew and that he was a man who kept himself to </lb>
+                <lb>himself. There was nothing in his file but his</lb>
+                <lb><note place="above">(references)</note>address/Q.E.D ,his job and his distinguishing</lb>
+                <lb>traits, that is, a hat and a light moustache, that</lb>
+                <lb>was all.</lb>
+                <lb><q>Excuse me</q> I said, <q> Do you know whether he's at </q></lb>
+                <lb><q>home at the moment?</q> I asked.</lb>
+                <lb>"No, I'm afraid I don't.   One can only tell</lb>
+                <lb>Whether that    <space/> fellow's at home when </lb>
+                </p> 
+            </div>
+                <!-- Division 6 with page break -->
+             <div n="6">
+                <pb facs="#page6"/> <!-- Page break reference -->
+                <p> he's having one of his turns, brought on by the
+                <lb>moonlight they are, or when...</lb>
+                <lb><q>He's a relative of mine. I said.</q></lb>
+                <lb>As though she hadn't heard me she said/went on:</lb>
+                <lb>"How could I possibly know. He never <del reason="omitted">puts on </del><add> doesn't play </add> his</lb>
+                <lb><del reason="omitted">radio/</del>gramaphone<del reason="omitted">/wireless</del> in the morning."</lb>
+                <lb><q>Does he play foreign records?</q> I asked.</lb>
+                <lb><q>Yes.</q> She said.</lb>
+                <lb><q>Oh no,</q> she said, But when he has one of his</lb>
+                <lb>turns... no,but I do wish (for godsakes) you'd </lb>
+                <lb>ask Mr. S.M. to watch the moon/keep out of the</lb>
+                <lb>moonlight/walk less under the stars."</lb>
+                <lb>We talked a lot. As I said she wasn't a  bad</lb>
+                <lb>sort so I askedher:</lb>
+                <lb>"Do you think you could give him a message/ could</lb>
+                <lb> I leave a message with you, its nothing really..."</lb>
+                <lb>"But of course/With the greatest of pleasures."</lb>
+                </p> 
+            </div>
+                    <!-- Division 7 with page break -->
+             <div n="7">
+                <pb facs="#page7"/> <!-- Page break reference -->
+                <p> But I was at a loss/stumped as to what to say.
+                <lb>All I really/<add>I only</add> wanted to know was whether</lb>
+                <lb>he was on good terms with this woman or not.</lb>
+                <lb>I never found out. Although later I discovered</lb>             
+                <lb>that... well, leave that until later. What I </lb>
+                <lb><note place="above">did learn from</note> learned from my conversation with the woman however</lb>
+                <lb>amounted to this:</lb>
+                <lb>1 - Mr. S.M. has turns/walks in the moonlight.</lb>
+                <lb>When? The time is not definite./ <add>At no</add> </lb>
+                <lb>specific time. He also smokes.</lb>
+                <lb>2 - He plays foreign records at night and  <unclear reason="dehyphenation">sometimes</unclear> </lb>
+                <lb>sings himself too. He has a soft</lb>
+                <lb>pleasant voice.  These could be considered</lb>
+                <lb>reliable distinguishing characteristics./</lb>
+                <lb><add>distinguishing /characteristics traits,</add> had</lb>
+                <lb>on a reliable source.</lb>
+                <lb>3 - He keeps his light on late/<add>until late at night.</add></lb>
+                <lb>Every night? Well say the woman had seen</lb>
+                </p> 
+            </div>
+                <!-- Division 8 with page break -->
+            <div n="8">
+                <pb facs="#page8"/> <!-- Page break reference -->
+                <p>it <add>(sometimes) in passing.</add>
+                <lb>4 - Whenever he goes out, he always has/ <add>he's</add></lb>
+                <lb>always got several books under his arms</lb>
+                <lb>and a cigarette between his lips. </lb>
+                <lb>5 - He's unmarried. /<add>He hasn't got a wife.</add></lb>
+                <lb><add>(The liitle woman laughed.)</add><del reason="omitted"> Is he good</del></lb>
+                <lb>So he's good looking.  Mr.S.M. I mean.</lb>
+                <lb>His photograph doesn't show/<dd>reveal</dd> such things.</lb>
+                <lb>We ought to <del reason="omittwed">ask</del> request that the photograph</lb>
+                <lb>in his file be changed.</lb>
+                <lb>I said goodbye to the woamn. I don't know</lb>
+                <lb>Would you like to compile/ <add>do</add> a file on her also?</lb>
+                <lb>Its completely up to you, Naturally <add place="above"> of course</add>. If you do, fill</lb>
+                <lb>in <del reason="omitted">the</del> <add place="above">her</add> distinguishing characteristics. She had a </lb>
+                <lb>mole just by the dimple in her chain. Black hair,</lb>
+                <lb>red lips. She was a sexy little piece. / <add>a coquette.</add></lb>
+                <lb>Her tchador was always slipping off/ <add>down</add> and I </lb>
+                <lb>could see her head and neck and sometimes the <unclear reason="dehyphenation">movement</unclear></lb>
+                <lb>of her breasts.</lb>
+                </p> 
+            </div>  
+
+
+
+        </body>
+    </text>
+
+    <!-- Facsimile images -->
+    <facsimile>
+        <surface xml:id="page1">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/1.jpg"/>
+        </surface>
+        <surface xml:id="page2">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/2.jpg"/>
+        </surface>
+        <surface xml:id="page3">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/3.jpg"/>
+        </surface>
+          <surface xml:id="page4">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/4.jpg"/>
+        </surface>
+          <surface xml:id="page5">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/5.jpg"/>
+        </surface>
+          <surface xml:id="page6">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/6.jpg"/>
+        </surface>
+          <surface xml:id="page7">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/7.jpg"/>
+        </surface>
+          <surface xml:id="page8">
+            <graphic url="https://github.com/atousa95/Digital-Text/raw/main/images/8.jpg"/>
+        </surface>
+    </facsimile>
+</TEI>
