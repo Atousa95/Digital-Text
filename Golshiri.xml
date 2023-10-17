@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng">
-    <!-- The TEI document starts here -->
 
-    <!-- Metadata about the document -->
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>TEI Encoding of "The Man with the Red Tie"</title>
-                <author>Houshang Golshiri</author>
-            </titleStmt>
-            <respStmt>
-                <resp>Translator</resp>
-                <name>Heshmat Moayyad</name>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>The Man with the Red Tie</title>
+      <title type="original">مردی با کروات سرخ</title>
+    </titleStmt>
+       <respStmt>
+                <resp>Encoded by</resp>
+                <name>Atousa Heidarnia</name>
             </respStmt>
-            <publicationStmt>
+    <editionStmt>
+      <p>First Edition</p>
+    </editionStmt>
+    <extent>
+      <p>Short Story in Collection</p>
+    </extent>
+    <publicationStmt>
                 <publisher>Mage Publishers</publisher>
                 <pubPlace>Washington D.C., United States</pubPlace>
                 <date>2003</date>
             </publicationStmt>
             <sourceDesc>
-                <p>Transcription of eight pages taken from the manuscripts of Houshang Golshiri's <title>The Man with the Red Tie</title></p>
+             <p>The original source contains 14 pages, but in this encoding project, I am focusing on encoding only 8 pages from it. I have chosen to transcribe and encode the first 8 pages of Houshang Golshiri's <title>The Man with the Red Tie</title>.</p>
             </sourceDesc>
-        </fileDesc>
-    </teiHeader>
+  </fileDesc>
+</teiHeader>
 
-    <!-- The main text content -->
-    <text>
+ <text>
         <body>
             <!-- Division 1 with page break -->
             <div n="1">
