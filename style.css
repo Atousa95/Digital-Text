@@ -1,0 +1,407 @@
+* {
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8e8;
+   
+  }
+  
+
+/* Add your existing CSS rules here */
+/* ... */
+
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #000000;
+}
+
+
+
+
+.header .logo {
+  font-size: 25px;
+  color: #eee6e6;
+  text-decoration: none;
+  margin-left: 5px; /* Adjust the margin to make them closer */
+}
+
+.nav-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #eee6e6;
+  margin-bottom: 10px; /* Adjust the spacing between menu items */
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.nav-items a:hover {
+  color: rgb(189, 9, 9); /* hover effect */
+}
+
+
+/* CSS for main element */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("/manus.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro p { text-transform: none;}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	color: #3b3b3b;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.title-word {
+	animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+	--color-1: #df8453;
+	--color-2: #3d8dae;
+	--color-3: #e4a9a8;
+}
+
+.title-word-2 {
+	--color-1: #dbad4a;
+	--color-2: #accfcb;
+	--color-3: #17494d;
+}
+
+.title-word-3 {
+	--color-1: #accfcb;
+	--color-2: #e4a9a8;
+	--color-3: #accfcb;
+}
+
+.title-word-4 {
+	--color-1: #3d8dae;
+	--color-2: #df8453;
+	--color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+	0% {
+		color: var(--color-1);
+	}
+	32% {
+		color: var(--color-1);
+	}
+	33% {
+		color: var(--color-2);
+	}
+	65% {
+		color: var(--color-2);
+	}
+	66% {
+		color: var(--color-3);
+	}
+	99% {
+		color: var(--color-3);
+	}
+	100% {
+		color: var(--color-1);
+	}
+}
+
+.intro p {
+  font-size: 24px;
+  color: #d1d1d1;
+  text-transform: none;
+  margin: 20px 0;
+  font-weight: bold; /* Add bold font weight */
+  text-shadow: 2px 2px 4px rgb(224, 0, 0); /* Add text shadow */
+}
+
+
+.intro button {
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+  line-height: 2;
+  
+}
+
+.about-me img {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 5px;
+  float: right; /* Align the image to the right */
+}
+
+
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  margin: 0;
+  text-shadow: 0px 0px 10px rgb(201, 7, 7); /* You can adjust the '10px' value for the shadow's intensity */
+}
+
+
+.about-me-text p {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #000000;
+  margin: 10px 0;
+  text-align:justify;
+}
+
+/* CSS for footer */
+.footer {
+  background-color: #000000;
+  color: rgb(242, 233, 233);
+  padding: 20px;
+  text-align: center;
+  position:sticky;
+  line-height: 2;
+}
+
+.links {
+  margin-bottom: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 16px;
+  color: rgb(242, 233, 233);
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #a21f08;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 10px; /* Position at the bottom */
+  right: 10px; /* Position at the right */
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-to-top:hover {
+  color: #a21f08;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.back-to-top i {
+  transform: rotate(45deg);
+}
+
+
+  /* Styles for the main container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%; /* Set a maximum width for the container */
+  background: linear-gradient(137deg, rgba(255,128,128,0.17699579831932777) 0%, rgba(162,20,20,0.8548669467787114) 100%);
+}
+  
+
+  /* Styles for the inner container */
+  .inner-container {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Space between inner container and album */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    max-width: 100%; /* Set a maximum width for the container */
+  }
+
+  /* Style for the XML download link */
+  .xml-link {
+    display: block;
+    margin: 20px 0;
+    background-color: rgba(162,20,20,0.8548669467787114);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+/* Style for the image album container */
+.image-album {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+  flex-wrap: wrap;
+  max-width: 100%; /* Set a maximum width for the container */
+}
+
+/* Style for each image in the album */
+.image-album img {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  background: rgba(162, 20, 20, 0.8548669467787114);
+}
+
+/* Hover effect for images */
+.image-album img:hover {
+  transform: scale(1.1); /* Enlarge the image slightly on hover */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); /* Add a shadow on hover */
+}
+/* Style for images within the main content */
+
+main {
+  line-height: 2;
+}
+
+
+  /* Style for the added rectangle */
+  .rectangle {
+    width: 100px;
+    height: 50px;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* Style for the text within the rectangle */
+.rectangle a {
+    text-decoration: none;
+    background-color: rgba(162, 20, 20, 0.8548669467787114);
+    color: #f8f4f4;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style for the image with effect and shadow */
+.image-with-effect {
+  width: 100%; /* Set the desired width */
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  filter: grayscale(20%); /* Add a grayscale effect */
+  transition: filter 0.3s ease; /* Add a smooth transition effect */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Add a shadow to the image */
+}
+
+/* Hover effect for the image */
+.image-with-effect:hover {
+  filter: grayscale(0%); /* Remove the grayscale effect on hover */
+  transform: scale(1.05); /* Enlarge the image slightly on hover */
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.6); /* Adjust the shadow on hover */
+}
+
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: justify;
+  align-items: center;
+  
+}
+.about-me-content h2{text-shadow: 0px 0px 10px rgb(201, 7, 7); }
+
+.about-me-content .page-2 {text-align: justify;}
+/* Style your pagination buttons with pink arrow icons */
+/* Style the left pagination button */
+
+
+/* CSS for the image frame */
+.image-frame {
+  max-width: 40%; /* Adjust the width as needed */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 3px 3px 10px  #9d0404; /* Add a shadow effect to the frame */
+  float: right; /* Align the image frame to the right */
+  margin-left: 20px; /* Add some margin to separate from text */
+
+}
+
+/* CSS for text alignment */
+.about-me-content .page-1 {
+  text-align: justify; /* Adjust text alignment as needed */
+}
+
+.about-me {
+  margin-top: 10px;
+}
+
+.image-frame2 {
+  max-width: 30%; /* Adjust the width as needed */
+  
+
+  box-shadow: 3px 3px 10px  #9d0404; /* Add a shadow effect to the frame */
+  float: right; /* Align the image frame to the right */
+  margin-left: 20px; /* Add some margin to separate from text */
+  
+}
+
+/* Style your pagination buttons with pink arrow icons */
+/* Style the left pagination button */
