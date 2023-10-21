@@ -38,12 +38,12 @@
             <div n="1">
                 <pb facs="#page1"/> <!-- Page break reference -->
                 <head>The Man with the Red Tie</head>
-                <note rend="location(top right)">Dedicated to: Abolhasan Najafi</note>
+                <note location="top right">Dedicated to: Abolhasan Najafi</note>
                 <p>
-                    Mr. S.M. No. 12356/9 <add>has</add> short hair.<lb> <del rend="display:none">This was all I knew</del> <add place="above">I knew just so much</add>.
+                    Mr. S.M. No. 12356/9 <add>has</add> short hair.<lb> <del>This was all I knew</del> <add place="above">I knew just so much</add>.
                     about him, that he <unclear reason="dehyphenation">probably</unclear></lb> 
                     <lb>wears glasses. In the photograph, you can</lb> 
-                    <lb>just make out a fine line running across <del rend="display:none">Mr. S.M.'s</del><add place="above">his</add></lb>
+                    <lb>just make out a fine line running across <del>Mr. S.M.'s</del><add place="above">his</add></lb>
                     <lb>nose.This apart/beyond this,there were no</lb>
                     <lb>other distinguishing marks/traits in the <unclear reason="dehyphenation">photograph.</unclear></lb>
                     <lb>His exact address was in  the file:</lb><lb>Dr. QQa'ni, Number 10, Doulat St.</lb>
