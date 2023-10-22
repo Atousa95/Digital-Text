@@ -1,0 +1,563 @@
+/* Reset some default browser styles */
+
+* {
+    font-family: 'Crimson Text', serif, sans-serif; /* Add a common sans-serif font as a fallback */
+    line-height:2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8e8;
+   
+  }
+  
+
+/* Header styles */
+header {
+  display:block;
+  background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2px;
+    text-align: center;
+    text-shadow: 10px 0px 20px rgb(186, 9, 9);
+    color:white;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+
+p {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+
+
+.nav-items a:hover {
+    color: rgb(189, 9, 9); /* hover effect */
+  }
+  
+/* Rest of your CSS code remains the same */
+
+.icon {
+	font-size: 24px;
+	margin-right: 10px;
+}
+/* CSS for footer */
+.footer {
+  display:block;
+  position:relative;
+  background-color: #000000;
+  color: rgb(242, 233, 233);
+  padding: 20px;
+  text-align: center;
+  line-height: 2;
+}
+  .links {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+    color: rgb(242, 233, 233);
+    transition: color 0.3s ease;
+  }
+  
+  .links a:hover {
+    color: #a21f08;
+  }
+
+.toggle {
+	--width: 80px;
+	--height: calc(var(--width) / 3);
+
+	position: relative;
+	display: inline-block;
+	width: var(--width);
+	height: var(--height);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	border-radius: var(--height);
+	cursor: pointer;
+}
+
+.toggle input {
+	display: none;
+}
+
+.toggle .slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: var(--height);
+	background-color: #ccc;
+	transition: all 0.4s ease-in-out;
+}
+
+.toggle .slider::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(var(--height));
+	height: calc(var(--height));
+	border-radius: calc(var(--height) / 2);
+	background-color: #fff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	transition: all 0.4s ease-in-out;
+}
+
+.toggle input:checked + .slider {
+	background-color: #000000;
+}
+
+.toggle input:checked + .slider::before {
+	transform: translateX(calc(var(--width) - var(--height)));
+}
+
+.typing-animation {
+	animation: typing 3s steps(40) forwards;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid #b30000;
+  font-size: 30px;
+}
+
+.typing-animation {
+	animation: typing 3s steps(40) forwards;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid #bf9d7a;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+/* Styling for the video section */
+.video-section {
+	padding: 40px;
+	background-color: #fff;
+	text-align: center;
+}
+
+
+.important {
+	padding: 8px 16px;
+}
+.manage h2 {
+	padding: 8px 16px;
+	margin: 0;
+	text-shadow: 0px 0px 10px rgb(201, 7, 7); /* You can adjust the '10px' value for the shadow's intensity */
+}
+.childbenefit{padding:8px 16px ;}
+.difference{padding: 8px 16px;}
+
+.music-table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 20px auto;
+	background-color: #fff3e0;
+	border: 1px solid #d7ccc8;
+	text-align: center;
+}
+#benefit{padding: 8px 16px;
+	text-shadow: 10px 0px 20px rgb(158, 8, 8);/* You can adjust the '10px' value for the shadow's intensity */
+	color:rgb(158, 8, 8);}
+.music-table th,
+.music-table td {
+	border: 1px solid #c1c1c1;
+	padding: 10px;
+}
+
+.music-table th {
+	background-color:rgb(158, 8, 8);
+	color: #ffffff;
+}
+
+.music-table td {
+	background-color: #ffe4e4;
+	color: #000000;
+}
+
+.type{color: #000000;
+text-shadow: 2px 2px 4px #ffadad;
+}
+
+
+
+.links {
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+    color: rgb(242, 233, 233);
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #a21f08;
+}
+
+
+  
+.back-to-top {
+    position: fixed;
+    bottom: 10px; /* Position at the bottom */
+    left: 10px; /* Position a bit to the left */
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  
+  .back-to-top:hover {
+    color: #a21f08;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .back-to-top i {
+    transform: rotate(45deg);
+  }
+
+  .about-me {
+
+	justify-content: center;
+	align-items: center;
+	padding: 40px 80px;
+	border-top: 2px solid #eeeeee;
+	line-height: 2;
+	
+  }
+  
+  .about-u
+  {
+    justify-content: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+    line-height: 2;}
+  .about-me-text h2 {
+	font-size: 30px;
+	color: #333333;
+	margin: 0;
+	text-shadow: 0px 0px 10px rgb(201, 7, 7); /* You can adjust the '10px' value for the shadow's intensity */
+  }
+  
+  
+  .about-me-text p {
+	font-size: 15px;
+	color: #000000;
+	margin: 10px 0;
+  }
+  #frbr {color:#a21f08;}
+
+
+  /* Styles for the main container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  max-width: 100%; /* Set a maximum width for the container */
+  background: linear-gradient(137deg, rgba(255,128,128,0.17699579831932777) 0%, rgba(162,20,20,0.8548669467787114) 100%);
+}
+  
+
+  /* Styles for the inner container */
+  .inner-container {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Space between inner container and album */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    max-width: 100%; /* Set a maximum width for the container */
+  }
+
+  /* Style for the XML download link */
+  .xml-link {
+    display: block;
+    margin: 20px 0;
+    background-color: rgba(162,20,20,0.8548669467787114);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  /* Apply the animation to the XML download link */
+.xml-link:hover {
+  animation: pulse 1s infinite; /* Apply the previous pulse animation */
+}
+
+/* Style for the image album container */
+.image-album {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+  flex-wrap: wrap;
+  max-width: 100%; /* Set a maximum width for the container */
+}
+
+/* Style for each image in the album */
+.image-album img {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  background: rgba(162, 20, 20, 0.8548669467787114);
+}
+
+/* Hover effect for images */
+.image-album img:hover {
+  transform: scale(1.1); /* Enlarge the image slightly on hover */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); /* Add a shadow on hover */
+}
+/* Style for images within the main content */
+
+main {
+  line-height: 2;
+}
+
+
+
+/* Style for the added rectangle */
+.rectangle {
+  width: 120px; /* Adjust the width to your preferred size */
+  height: 60px; /* Adjust the height to your preferred size */
+  background-color: #8e0000;
+  margin: 20px auto; /* Add spacing around the rectangle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* Increase border radius for a smoother look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+/* Style for the text within the rectangle */
+.rectangle a {
+  text-decoration:none;
+  color: #f8f4f4;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 10px; /* Add padding to the text for a more polished look */
+}
+
+/* Apply the animation to the link within the rectangle */
+.rectangle a:hover {
+    animation: pulse 1s infinite; /* Apply the previous pulse animation */
+}
+
+
+/* Style for the image with effect and shadow */
+.image-with-effect {
+  width: 100%; /* Set the desired width */
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  filter: grayscale(20%); /* Add a grayscale effect */
+  transition: filter 0.3s ease; /* Add a smooth transition effect */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Add a shadow to the image */
+}
+
+/* Hover effect for the image */
+.image-with-effect:hover {
+  filter: grayscale(0%); /* Remove the grayscale effect on hover */
+  transform: scale(1.05); /* Enlarge the image slightly on hover */
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.6); /* Adjust the shadow on hover */
+}
+.fa-spinner {
+  animation: spin 20s infinite linear;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center; /* Center the text horizontally */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Use flexbox for horizontal centering */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+ /* Define the frame design here */
+ .custom-frame {
+
+  padding: 10px; /* Adjust padding as needed */
+}
+
+/* Make the video responsive */
+.custom-video {
+  max-width: 50%; /* You can adjust the width as needed */
+  height: auto;
+}
+.custom-image {
+  max-width: 50%; /* Adjust the width as needed */
+  height: auto;
+}
+.custom-frame{border: #8e0000 solid;
+  display: flex;
+    justify-content: space-between;
+}
+
+.custom-video + .custom-image {
+  margin-left: 5px; /* Adjust the spacing as needed */
+}
+
+/* Define the animation for the link */
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+/* Center the link button and apply animation */
+.analysis-link {
+  text-align: center; /* Center the button horizontally */
+}
+
+/* Style for the link button */
+.link-button {
+  background-color: #8e0000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+/* Add the animation to the link */
+.link-button:hover {
+  animation: pulse 1s infinite;
+}
+.bold-text {
+  font-weight: bold;
+  text-align: center;
+  animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+      color: red;
+  }
+  25% {
+      color: blue;
+  }
+  50% {
+      color: green;
+  }
+  75% {
+      color: orange;
+  }
+  100% {
+      color: purple;
+  }
+}
+.rec {
+  width: 120px; /* Adjust the width to your preferred size */
+  height: 60px; /* Adjust the height to your preferred size */
+  background-color: #8e0000;
+  margin: 20px 0; /* Add spacing around the rectangle and position it on the left */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* Increase border radius for a smoother look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.rec a {
+  text-decoration:none;
+  color: #f8f4f4;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 10px; /* Add padding to the text for a more polished look */
+}
+
+/* Apply the animation to the link within the rectangle */
+.rec a:hover {
+    animation: pulse 1s infinite; /* Apply the previous pulse animation */
+}
